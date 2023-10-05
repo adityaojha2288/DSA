@@ -49,7 +49,7 @@ public class Delete_alternate_node {
         public void display() {
             Node currentNode = head;
             while (currentNode != null) {
-                System.out.print(currentNode.data + " ");
+                System.out.print(currentNode.data + "  ");
                 currentNode = currentNode.next;
             }
             System.out.println();
