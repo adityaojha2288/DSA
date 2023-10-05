@@ -5,7 +5,7 @@ public class Cieling {
         int[] arr ={2,3,5,9,14,16,18};
         double target = 10.123;
         int a = cieling(arr,target);
-        System.out.println(a);
+        System.out.print(a);
     }
 
     static int cieling(int[] arr, double target) {
